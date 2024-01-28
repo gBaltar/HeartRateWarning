@@ -4,13 +4,13 @@ import android.Manifest
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Bundle
-import android.support.wearable.activity.WearableActivity
+import androidx.activity.ComponentActivity
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Switch
 
-class ServiceConfigActivity : WearableActivity() {
+class ServiceConfigActivity : ComponentActivity() {
     private val TAG : String = "ServiceConfigActivity"
 
     override fun onCreate(savedInstanceState: Bundle?) {
