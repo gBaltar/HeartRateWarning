@@ -102,6 +102,17 @@
                     android:layout_height="5pt" />
 
                 <Switch
+                    android:id="@+id/broadcast_ble"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:text="Broadcast BLE" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="5pt" />
+
+                <Switch
                     android:id="@+id/watch_gps"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
